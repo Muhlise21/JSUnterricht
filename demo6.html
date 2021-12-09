@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const marka = ["opel", "toyota", "mazda", "renault","bmw"];
+        // const model= new Array("corsa","yaris","cx-3","clio");
+        // console.log(marka[2]);
+        // console.log(model[2]);
+
+        // model[0]="astra";
+        //  console.log(model);
+
+        //  const auris= ["toyota","auris",42,true];
+
+        //  console.log(auris);
+
+        //  for( var i=0; i<marka.length; i++ ){
+        //      console.log(marka[i]);
+        //  }
+
+        //  if(marka.indexOf('Mazda')!==-1){
+        //         console.log("bulundu");
+        //  } else{ console.log('aradigin sey bulunamadi:(');
+
+        //  }
+        const now= 2021
+        const models= ['Toyota','Mazda','Mercedes','Opel'];
+        const years= ['2015','2018','2020','2019'];
+
+        // for( var i=0; i<models.length; i++ ){
+        //     console.log(models[i])
+        // }
+        // models.forEach(function(element){
+        //     console.log(element);
+        // });
+        
+        const model=prompt("Model giriniz");
+        const year=prompt("Yil giriniz");
+
+        models.push(model);
+        years.push(year);
+
+
+        for( var i=0; i<models.length; i++ ){
+             console.log(models[i] +' '+years[i]+' model ve '+(now-years[i])+ ' yasinda bir aractir');
+         }
+
+
+
+
+    </script>
+</body>
+</html>

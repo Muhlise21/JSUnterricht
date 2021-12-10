@@ -8,6 +8,67 @@
 </head>
 <body>
     <script>
+        var ali = {
+            ad:'Ali',
+            soyad:'Yilmaz',
+            cinsiyet:'erkek',
+            telefon:'0262333333',
+            adres:'izmit Kocaeli',
+            meslek:'bilgisayar mühendisi',
+            diller:['ingilizce','almanca'],
+            hobiler:['sinema','spor','kitap okumak'],
+
+        
+        };
+        // console.log(ali);
+
+        // console.log(ali.diller.length);
+        // ali.hobiler.forEach(function(hobi){ 
+        //     console.log(hobi)});
+
+
+            var personel=[
+            {
+            ad:'Ahmet',
+            soyad:'Yilmaz',
+            cinsiyet:'erkek',
+            telefon:'0262333333',
+            adres:'izmit Kocaeli',
+            meslek:'bilgisayar mühendisi',
+            diller:['ingilizce','almanca'],
+            hobiler:['sinema','spor','kitap okumak'],
+            },
+            { 
+            ad:'Merve',
+            soyad:'Yilmaz',
+            cinsiyet:'kadin',
+            telefon:'0262333333',
+            adres:'izmit Kocaeli',
+            meslek:'bilisim mühendisi',
+            diller:['ingilizce','almanca'],
+            hobiler:['sinema','spor','kitap okumak'],
+            },
+            {
+            ad:'Pelin',
+            soyad:'Yilmaz',
+            cinsiyet:'kadin',
+            telefon:'0262333333',
+            adres:'izmit Kocaeli',
+            meslek:'IT mühendisi',
+            diller:['ingilizce','fransizca','arapca'],
+            hobiler:['sinema','spor','kitap okumak'],
+            }
+            ];
+            personel.forEach(function(personal){
+                console.log('********** miav **************')
+
+                console.log(personal.ad+' '+personal.soyad+' '+personal.cinsiyet);
+                personal.diller.forEach(function(dil)
+                   {   console.log(dil);
+
+                })
+                console.log('************* miav ***********')
+            })
         
 
     </script>
